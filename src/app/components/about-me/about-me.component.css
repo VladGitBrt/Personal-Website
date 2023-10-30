@@ -12,3 +12,43 @@
     color: #ABB2BF;
     padding: 10px;
 }
+
+.image-container {
+    display: flex;
+    position: relative;
+}
+
+#dots1 {
+    width: 100px;
+}
+
+#dots1 {
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+
+#dots2 {
+    position: absolute;
+    width: 150px;
+    bottom: 200px;
+    left: 350px;
+}
+
+.rectangle1 {
+    position: absolute;
+    right: 50px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ABB2BF;
+}
+
+@media (max-width: 480px) {
+    .about-section {
+        flex-direction: column;
+    }
+
+    .image-container {
+        display: none;
+    }
+}
