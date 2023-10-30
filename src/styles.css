@@ -4,3 +4,10 @@
     padding: 0px;
     font-family: 'Fira Code', monospace;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+    background-color: #282C33;
+}

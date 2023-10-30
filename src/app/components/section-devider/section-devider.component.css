@@ -1,0 +1,39 @@
+.devider-container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2vw;
+}
+
+.default-container {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.purp {
+    color: #C778DD;
+}
+
+hr {
+    width: 100%;
+    margin: 0px 20px;
+}
+
+.view-container {
+    font-size: 1vw;
+    margin-left: auto;
+}
+
+@media (max-width: 480px) {
+    .view-container {
+        font-size: 2.5vw;
+    }
+
+    .devider-container {
+        font-size: 5vw;
+        margin-top: 100px;
+    }
+}

@@ -8,7 +8,7 @@ export class TextTypingService {
   constructor() { }
 
   public animateText(textEl: ElementRef<HTMLElement>): void {
-    const words = ["Coding", "JavaScript", "Angular", "Front-End"];
+    const words = ["Coding", "Angular", "JavaScript", "Front-End"];
     let wordIndex = 0;
     let charIndex = 0;
     let isDeleting = false;

@@ -35,7 +35,7 @@
     transform-style: preserve-3d;
   }
   
-  .spinner > div {
+  .spinner > div { 
     background-color: var(--clr-alpha);
     height: 100%;
     position: absolute;

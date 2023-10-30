@@ -1,9 +1,15 @@
 header {
-    width: 80vw;
+    width: 100%;
     display: flex;
     margin: auto;
     padding-top: 20px;
     justify-content: space-between;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 
 nav {

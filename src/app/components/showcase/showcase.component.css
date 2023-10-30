@@ -1,0 +1,232 @@
+.showcase-container {
+    width: 100%;
+    display: flex;
+    margin-top: 15vw;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    border: 1px solid #BD53ED;
+    font-size: 1.3vw;
+    padding: 1vw;
+    transition: 0.3s ease-in-out;
+    background-color: #282C33;
+}
+
+button:hover {
+    background-color: #BD53ED;
+    color: white;
+    border: 1px solid #BD53ED;
+    transition: 0.3s ease-in-out;
+}
+
+.showcase-container > section {
+    flex: 1;
+    display: flex;
+}
+
+.interactive-text {
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.anim {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.description {
+    color: #ABB2BF;
+    font-size: 1vw;
+    display: inline-block;
+    margin: 2vw 0px;
+}
+
+.anim span {
+    color: #BD53ED;
+    position: relative;
+}
+
+.purp {
+    color: #BD53ED;
+}
+.anim span::before {
+    content: "";
+    height: 30px;
+    width: 2px;
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    background: #BD53ED;
+    transform: translateY(-45%);
+    animation: blink 0.7s infinite;
+}
+.anim span.stop-blinking::before {
+    animation: none;
+}
+@keyframes blink {
+    50% { opacity: 0 }
+}
+
+.showcase-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.activity {
+    color: white;
+}
+
+.status::before {
+    display: block;
+    content: '';
+    width: 1vw;
+    height: 1vw;
+    background-color: #BD53ED;
+}
+
+.status {
+    display: flex;
+    font-size: 1vw;
+    align-items: center;
+    gap: 5px;
+    color: #ABB2BF;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border: 2px solid #ABB2BF;
+    padding: 5px;
+}
+
+.cube {
+    position: absolute;
+    width: 10vw;
+    bottom: 0px;
+    right: 0px;
+}
+
+.stroked-logo {
+    position: absolute;
+    width: 10vw;
+    top: 0px;
+}
+
+.quote-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.quote, .quote-author {
+    padding: 30px;
+    border: 1px solid white;
+}
+
+.quote {
+    position: relative;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+.quote-icon1 {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    background-color: #282C33;
+    padding: 5px;
+}
+
+.quote-icon2 {
+    position: absolute;
+    bottom: -15px;
+    right: 10px;
+    background-color: #282C33;
+    padding: 5px;
+}
+
+
+
+@media (max-width: 480px) {
+
+    .quote, .quote-author {
+        padding: 10px;
+        font-size: 3vw;
+    }
+
+    .quote-icon1,.quote-icon2 {
+        width: 15px;
+    }
+
+    .quote-icon1 {
+        top: -12px
+    }
+
+    .quote-icon2 {
+        bottom: -12px
+    }
+
+    .showcase-container {
+        flex-direction: column;
+    }
+
+    .interactive-text {
+        font-size: 3vw;
+    }
+
+    .interactive-text > span {
+        font-size: 5vw;
+    }
+    
+    .anim {
+        font-size: 6vw !important;
+        margin-top: 50px;
+        display: block;
+    }
+
+    .description {
+        font-size: 3vw !important;
+    }
+
+    button {
+        font-size: 4vw;
+        padding: 15px;
+    }
+
+    .showcase-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 300px;
+        margin-top: 50px;
+    }
+
+    .stroked-logo {
+        width: 50vw;
+    }
+
+    .cube {
+        width: 20vw;
+    }
+
+    .status {
+        font-size: 3vw;
+    }
+
+
+    
+
+}

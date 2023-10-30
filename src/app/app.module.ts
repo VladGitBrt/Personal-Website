@@ -6,13 +6,23 @@ import { LoaderComponent } from './components/loader/loader.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
+import { ShowcaseComponent } from './components/showcase/showcase.component';
+import { SectionDeviderComponent } from './components/section-devider/section-devider.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoaderComponent,
     DashboardComponent,
-    HeaderComponent
+    HeaderComponent,
+    ShowcaseComponent,
+    SectionDeviderComponent,
+    ProjectsComponent,
+    SkillsComponent,
+    AboutMeComponent,
   ],
   imports: [
     BrowserModule,
