@@ -31,7 +31,7 @@
 #dots2 {
     position: absolute;
     width: 150px;
-    bottom: 200px;
+    bottom: 100px;
     left: 350px;
 }
 
@@ -41,6 +41,23 @@
     width: 150px;
     height: 150px;
     border: 2px solid #ABB2BF;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    border: 1px solid #BD53ED;
+    font-size: 1.3vw;
+    padding: 1vw;
+    transition: 0.3s ease-in-out;
+    background-color: #282C33;
+}
+
+button:hover {
+    background-color: #BD53ED;
+    color: white;
+    border: 1px solid #BD53ED;
+    transition: 0.3s ease-in-out;
 }
 
 @media (max-width: 480px) {
