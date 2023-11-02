@@ -1,0 +1,47 @@
+.contact-me-container {
+    width: 100%;
+    display: flex;
+}
+
+.info-tab, .contact-tab {
+    flex: 1;
+}
+
+.info-tab {
+    color: #ABB2BF;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.contact-tab {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box {
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid #ABB2BF;
+    display: flex;
+    color: #ABB2BF;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-box > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-icon {
+    width: 32px;
+}
+
+@media (max-width: 480px) {
+    .contact-me-container {
+        flex-direction: column;
+    }
+}

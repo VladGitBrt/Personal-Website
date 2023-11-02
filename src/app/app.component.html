@@ -1,4 +1,4 @@
 <app-loader [isLoading]="isLoading"></app-loader>
 <div class="dashboard-container">
-   <app-dashboard *ngIf="isLoading === false"></app-dashboard> 
+   <router-outlet *ngIf="isLoading === false"></router-outlet>
 </div>

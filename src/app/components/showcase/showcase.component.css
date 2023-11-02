@@ -4,7 +4,7 @@
     margin-top: 15vw;
 }
 
-button {
+a {
     color: white;
     font-weight: bold;
     border: 1px solid #BD53ED;
@@ -14,7 +14,7 @@ button {
     background-color: #282C33;
 }
 
-button:hover {
+a:hover {
     background-color: #BD53ED;
     color: white;
     border: 1px solid #BD53ED;
@@ -201,7 +201,7 @@ button:hover {
         font-size: 3vw !important;
     }
 
-    button {
+    a {
         font-size: 4vw;
         padding: 15px;
     }

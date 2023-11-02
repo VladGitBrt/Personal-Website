@@ -11,6 +11,8 @@ import { SectionDeviderComponent } from './components/section-devider/section-de
 import { ProjectsComponent } from './components/projects/projects.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { ContactMeComponent } from './components/contact-me/contact-me.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
     ProjectsComponent,
     SkillsComponent,
     AboutMeComponent,
+    ContactMeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
