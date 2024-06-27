@@ -5,11 +5,6 @@ import { ProjectsPageComponent } from './pages/projects-page/projects-page.compo
 
 const routes: Routes = [
   {
-    path: '',
-    pathMatch: 'full',
-    redirectTo: 'home'
-  },
-  {
     path: 'home',
     component: DashboardComponent
   },
