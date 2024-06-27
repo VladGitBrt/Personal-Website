@@ -19,7 +19,7 @@ export class TextTypingService {
         textEl.nativeElement.classList.add("stop-blinking");
         if (!isDeleting && charIndex < currentWord.length) {
             charIndex++;
-            setTimeout(typeEffect, 100);
+            setTimeout(typeEffect, 100); 
         } else if (isDeleting && charIndex > 0) {
             charIndex--;
             setTimeout(typeEffect, 50);

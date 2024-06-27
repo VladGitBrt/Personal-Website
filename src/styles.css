@@ -11,3 +11,33 @@
 body {
     background-color: #282C33;
 }
+
+.shadow-pop-bl:hover {
+    animation: shadow-pop-bl-forward 0.1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.shadow-pop-bl:not(:hover) {
+    animation: shadow-pop-bl-backward 0.1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@keyframes shadow-pop-bl-forward {
+    0% {
+      box-shadow: 0 0 #BD53ED, 0 0 #BD53ED, 0 0 #BD53ED, 0 0 #BD53ED, 0 0 #BD53ED, 0 0 #BD53ED, 0 0 #BD53ED, 0 0 #BD53ED;
+      transform: translateX(0) translateY(0);
+    }
+    100% {
+      box-shadow: -1px 1px #BD53ED, -2px 2px #BD53ED, -3px 3px #BD53ED, -4px 4px #BD53ED, -5px 5px #BD53ED, -6px 6px #BD53ED, -7px 7px #BD53ED, -8px 8px #BD53ED;
+      transform: translateX(8px) translateY(-8px);
+    }
+}
+
+@keyframes shadow-pop-bl-backward {
+    0% {
+      box-shadow: -1px 1px #BD53ED, -2px 2px #BD53ED, -3px 3px #BD53ED, -4px 4px #BD53ED, -5px 5px #BD53ED, -6px 6px #BD53ED, -7px 7px #BD53ED, -8px 8px #BD53ED;
+      transform: translateX(8px) translateY(-8px);
+    }
+    100% {
+      box-shadow: 0 0 #BD53ED, 0 0 #BD53ED, 0 0 #BD53ED, 0 0 #BD53ED, 0 0 #BD53ED, 0 0 #BD53ED, 0 0 #BD53ED, 0 0 #BD53ED;
+      transform: translateX(0px) translateY(0px);
+    }
+}

@@ -1,9 +1,21 @@
+
+
+@media (min-width: 480px) {
 header {
     width: 100%;
     display: flex;
     margin: auto;
-    padding-top: 20px;
-    justify-content: space-between;
+    padding: 20px 0px;
+    justify-content: space-around;
+    background: rgba( 255, 255, 255, 0 );
+    border-bottom: 1px solid #BD53ED;
+    backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
 }
 
 a {
@@ -47,6 +59,16 @@ nav {
 }
 
 @media (max-width: 480px) {
+
+    header {
+        width: 100%;
+        display: flex;
+        margin: auto;
+        padding-top: 20px;
+        position: relative;
+        justify-content: space-between;
+    }
+
     .menu-desktop {
         display: none;
     }

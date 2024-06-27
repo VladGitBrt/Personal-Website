@@ -13,6 +13,8 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ProjectsPageComponent } from './pages/projects-page/projects-page.component';
+import { AboutMePageComponent } from './pages/about-me-page/about-me-page.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { FooterComponent } from './components/footer/footer.component';
     AboutMeComponent,
     ContactMeComponent,
     FooterComponent,
+    ProjectsPageComponent,
+    AboutMePageComponent,
   ],
   imports: [
     BrowserModule,
